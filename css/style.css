@@ -1,5 +1,5 @@
 :root {
-  --primary-text-color: black var(--primary-text-color);
+  --primary-text-color: #2196F3; var(--primary-text-color);
   --title-text-color: black var(--title-text-color);
   --accent-color: blue var(--accent-color);
   --prmary-white-color: white var(--prmary-white-color);
@@ -7,4 +7,31 @@
 
 body {
   font-family: "Roboto", "sans-serif";
+}
+
+/* LOGO */
+.logo {
+  color: var(--primary-text-color);
+  font-family: "Raleway", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+    
+
+
+/* Contacts */
+.contact-list:focus,
+.contact-list:hover { 
+    color: var(--primary-text-color);
+
+.contact-list { 
+ font-family: "Roboto", "sans-serif";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,42;
+color: var(--title-text-color);
+/* НУЖНО УБРАТЬ ТОЧКИ И Подчёркивания */
 }
