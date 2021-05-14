@@ -1,0 +1,10 @@
+:root {
+  --primary-text-color: black var(--primary-text-color);
+  --title-text-color: black var(--title-text-color);
+  --accent-color: blue var(--accent-color);
+  --prmary-white-color: white var(--prmary-white-color);
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+}
