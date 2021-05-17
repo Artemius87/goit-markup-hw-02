@@ -4,8 +4,31 @@
   --accent-color: blue var(--accent-color);
   --prmary-white-color: white var(--prmary-white-color);
 }
+/* Section banner */
+.banner {
+  background-color: #2F303A;
+  text-align: center;
 
-body {
+}
+.title { 
+color: white;
+font-family: "Roboto", "sans-serif";
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36
+}
+
+ .button-primary {
+  color: white;
+background-color: #2196F3;
+font-family: "Roboto", "sans-serif";
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+}
+
+
+.body {
   font-family: "Roboto", "sans-serif";
   color: var(--title-text-color);
 
@@ -25,7 +48,7 @@ body {
 .logo-color {
   color: var(--primary-text-color);
 }
-
+/* Header */
 .header-nav .contact-list{
   text-decoration: none
   
@@ -49,11 +72,3 @@ font-size: 14px;
 line-height: 1,42;
 color: var(--title-text-color);
 
-}
-
-
-
-/* НУЖНО УБРАТЬ ТОЧКИ И Подчёркивания */
-.header-nav .list {
-  list-style: none;
-}
