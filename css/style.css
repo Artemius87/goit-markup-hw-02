@@ -35,7 +35,48 @@ font-size: 16px;
 line-height: 1.87;
 }
 
+/* Section features*/
+.title-three{
+  font-family: "Roboto", "sans-serif";
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+color: #212121;
+}
 
+.text{
+  font-family: "Roboto", "sans-serif";
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color: #757575;
+}
+
+/* section activity */
+.title-two{
+font-family: "Roboto", "sans-serif";
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+}
+
+/* section team */
+.team{background: #F5F4FA;}
+
+.team-list{
+font-family: "Roboto", "sans-serif";
+font-weight: 500;
+font-size: 16px;
+line-height: 1.9p;
+}
+
+.profession{
+font-family: "Roboto", "sans-serif";
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
+color: #757575;
+}
 
 
 /* LOGO */
