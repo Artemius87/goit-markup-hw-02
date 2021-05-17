@@ -92,6 +92,12 @@ color: #757575;
     
 .logo-color {
   color: var(--primary-text-color);
+  font-family: "Raleway", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none
 }
 /* Header */
 .header-contact .contact-list,
@@ -153,5 +159,18 @@ line-height: 1.42;
 .adress-list:hover
 {
   color: var(--primary-text-color);
+}
 
+.logo-studio{
+  color: white
+  font-family: "Raleway", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.7;
+  text-decoration: none
+}
+.logo-footer{
+  text-decoration: none;
+    color: white
 }
