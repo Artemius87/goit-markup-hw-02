@@ -7,19 +7,34 @@
 
 body {
   font-family: "Roboto", "sans-serif";
+  color: var(--title-text-color);
+
 }
 
 /* LOGO */
-.logo {
-  color: var(--primary-text-color);
+.logo-header {
+  color: var(--title-text-color);
   font-family: "Raleway", "sans-serif";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none
 }
     
+.logo-color {
+  color: var(--primary-text-color);
+}
 
+.header-nav .contact-list{
+  text-decoration: none
+  
+   color: var(--title-text-color);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,42;
+}
 
 /* Contacts */
 .contact-list:focus,
@@ -27,11 +42,18 @@ body {
     color: var(--primary-text-color);
 
 .contact-list { 
- font-family: "Roboto", "sans-serif";
+  font-family: "Roboto", "sans-serif";
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1,42;
 color: var(--title-text-color);
+
+}
+
+
+
 /* НУЖНО УБРАТЬ ТОЧКИ И Подчёркивания */
+.header-nav .list {
+  list-style: none;
 }
