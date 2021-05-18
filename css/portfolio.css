@@ -19,9 +19,7 @@ body {
   letter-spacing: 0.03em;
 }
 /* HEADER */
-.header-contact .contact-list,
-.header-nav .contact-list,
-.logo-header {
+.contact-list {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -29,11 +27,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-contact .contact-list {
+/* .contact-list {
   color: #757575;
-}
+} */
 
-.header-nav .contact-list {
+.contact-list {
   color: var(--primary-text-color);
 }
 
@@ -44,4 +42,37 @@ body {
 
 .list {
   list-style: none;
+}
+
+/* /---------section button-------> */
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.button {
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+}
+
+.portf {
+  color: var(--accent-color);
+}
+
+/* ----class   list---- */
+.title-portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
