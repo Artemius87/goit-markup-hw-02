@@ -18,3 +18,30 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+/* HEADER */
+.header-contact .contact-list,
+.header-nav .contact-list,
+.logo-header {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-contact .contact-list {
+  color: #757575;
+}
+
+.header-nav .contact-list {
+  color: var(--primary-text-color);
+}
+
+.contact-list:focus,
+.contact-list:hover {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
